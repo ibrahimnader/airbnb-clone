@@ -1,0 +1,58 @@
+.searchPage {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.searchPage .searchPage__info {
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: #222222 !important;
+    padding-bottom: 8px !important;
+}
+
+.searchPage h1 {
+    margin-bottom: 20px;
+}
+
+.searchPage__btn {
+    cursor: pointer !important;
+    text-align: center !important;
+    border: 1px solid rgb(176, 176, 176) !important;
+    background-color: rgb(255, 255, 255) !important;
+    outline: none !important;
+    margin-left: 5px !important;
+    border-radius: 30px !important;
+    color: rgb(34, 34, 34) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    position: relative !important;
+    padding: 8px 16px !important;
+    font-size: 15px !important;
+    line-height: 16px !important;
+}
+
+.searchPage__btn:hover {
+    border: 1px solid black !important;
+}
+
+.searchPage .searchPage__map {
+    display: inline-flex;
+}
+
+.searchPage .searchPage__map:hover {
+    background-color: whitesmoke;
+}
+
+.searchPage .searchPage__map span {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 470px) {
+    .searchPage__btn span {
+        font-size: 14px;
+    }
+}
+
+.searchPage .link {
+    text-decoration: underline !important;
+    color: rgb(34, 34, 34) !important;
+}

@@ -1,0 +1,257 @@
+#place_info h1 {
+    color: black !important;
+    font-size: 1.4em !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    padding: 0px !important;
+    font-weight: bold;
+}
+#place_info .p_address{
+    font-size: 16px;
+    color: #777;
+}
+
+#place_info #star {
+    color: pink;
+    height: 14px;
+    width: 14px;
+    fill: currentcolor;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#place_info .address {
+    text-decoration: underline !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    font-style: inherit !important;
+    font-variant: inherit !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: rgb(113, 113, 113) !important;
+    text-decoration: none !important;
+}
+
+#place_info .img {
+    height: 200px;
+}
+
+#place_info .house_owner {
+    color: rgb(34, 34, 34) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 26px !important;
+}
+
+.profile_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#home_options span {
+    font-weight: bold;
+    color: rgb(7, 6, 6);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+#home_options p {
+    color: rgb(113, 113, 113) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+#box {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    width: 375px;
+}
+
+#box .sp1 {
+    font-weight: bold;
+}
+
+#box .sp3 {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#box i {
+    color: pink;
+    height: 14px;
+    width: 14px;
+    fill: currentcolor;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#box .sp2,
+i {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#box .small_box {
+    width: 324px;
+    height: 112px;
+    border: 1px solid #CCC;
+    margin-top: 20px;
+}
+
+.small_box .check_in {
+    border: 1px solid #CCC;
+    height: 56px;
+    padding: 10px 0px;
+}
+
+.small_box .check_in .sp {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.small_box .check_in .sp,
+input[type=date] {
+    margin-left: 5px;
+}
+
+#box .button input[type=button] {
+    height: 50px;
+    width: 325px;
+}
+
+#box .button input[type=button]:hover {
+    background-color: brown;
+}
+
+#description {
+    color: rgb(34, 34, 34) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    word-break: break-word !important;
+}
+
+#description .st_header {
+    color: var(--parsed-html-color, #222222) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-weight: 600 !important;
+    margin-bottom: 16px !important;
+}
+
+#description .link {
+    color: rgb(113, 113, 113) !important;
+    text-decoration: underline !important;
+}
+
+#bedroom h2 {
+    color: inherit !important;
+    font-size: 1em !important;
+    font-weight: 600 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#bedroom .box {
+    border: 1px solid rgb(221, 221, 221) !important;
+    border-radius: 12px !important;
+    width: 20%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10%;
+    display: block;
+}
+
+#bedroom .heading {
+    color: rgb(34, 34, 34) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+
+#bedroom .description1 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: rgb(113, 113, 113) !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+}
+
+.amenities {
+    color: inherit !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.options_of_house,
+.drawing_pic {
+    margin: 20px 20px 20px 0px;
+    font-size: 18px;
+    color: #222222;
+}
+
+#location {
+    /* height: 500px; */
+}
+
+.amenities_ul{
+    list-style:none;
+    margin-left: 20px;
+}
+
+.amenities_ul > li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.amenities_ul > li.hide{
+    display: none;
+}
+.amenities_ul > li .fas{
+    margin-right: 5px;
+    color: #666;
+    font-size: 1.5rem;
+    width: 40px;
+    text-align: center;
+}
+
+#location h2 {
+    color: inherit !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.big-image{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mini-image{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pay-divider{
+    /* margin-right: px; */
+    /* margin-left: 10px; */
+    height: 1px;
+    background-color: #BBB;
+}

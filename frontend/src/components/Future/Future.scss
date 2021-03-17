@@ -1,0 +1,52 @@
+/* Future.jsx tabs styling */
+.future__title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #222;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.future__wrapper nav {
+    padding: 15px 0px;
+}
+
+.future__wrapper nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    position: relative;
+}
+.future__wrapper nav a:focus {
+    color: black;
+}
+.future__wrapper nav a:focus::after {
+    content: '' !important;
+    /* border-bottom: 2px solid black; */
+    position: absolute !important;
+    background-color: rgb(34, 34, 34) !important;
+    bottom: -18px !important;
+    left: 0px !important;
+    width: calc(100%) !important;
+    height: 2px !important;
+}
+
+/* Cities in every Sub-Component */
+.future__wrapper {
+    span {
+        display: block;
+    }
+    span:first-child {
+        color: black;
+    }
+    .cities {
+        color: gray;
+    }
+    .city {
+        margin: 10px auto 25px;
+    }
+    .city:hover {
+        cursor: pointer;
+    }
+}

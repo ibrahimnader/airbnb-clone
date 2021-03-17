@@ -1,0 +1,8 @@
+.place_details img {
+    width: 100px;
+    height: 100px;
+}
+
+.place_details img p {
+    color: #AAA;
+}

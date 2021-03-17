@@ -1,0 +1,46 @@
+.upload_section{
+  text-align: center;
+}
+ .uploadInput {
+    border: 2px dashed rgb(187, 187, 187) !important;
+    border-radius: 6px !important;
+    height: 250px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    margin: 0px !important;
+    margin-top: 60px !important;
+    padding: 20px !important;
+    width: 100% !important;
+    display: table !important;
+    text-align: center;
+  }
+  .p_photos{
+    margin-top: 80px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    width: auto !important;
+    touch-action: manipulation !important;
+    font-size: 13px !important;
+    line-height: 24px !important;
+    letter-spacing: normal !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 22px !important;
+    font-weight: 800 !important;
+    border-radius: 4px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    background: rgb(255, 90, 95) !important;
+    box-shadow: none !important;
+    min-width: 71.1935px !important;
+}
+.photos_uploaded{
+  margin-top: 20px;
+  text-align: center;
+  display: block !important;
+  margin-bottom: 30px !important;
+}
+ 

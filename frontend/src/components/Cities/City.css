@@ -1,0 +1,13 @@
+  .city_img {
+      width: 72px;
+      height: 72px;
+      border-radius: 10%;
+  }
+  
+  .fonts {
+      font-weight: bold;
+      display: flex;
+      margin-left: 80px;
+      position: relative;
+      bottom: 50px;
+  }

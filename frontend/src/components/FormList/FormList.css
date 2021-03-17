@@ -1,0 +1,55 @@
+.address{
+    margin-bottom:0px !important; 
+}
+.Form{
+    height: 480px !important;
+    background-color: #f2ece2 !important;
+    
+}
+
+.smallForm{
+    width: 338px !important;
+    border-style: solid !important;
+    border-color: #ced4da !important;
+    border-radius: 8px !important;
+    margin-top: 20px !important;
+}
+.allSides{  
+    padding-top: 10px;
+    padding-left: 33px; 
+    margin-top: 40px !important;
+    width:400px;
+    height:400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+.Formstart_btn{
+    background-color: black !important;
+    color: white !important;
+    margin-top: 13px;
+    width: 338px !important;
+  }
+.FormText{
+    margin-top: 155px;
+    margin-left: 50px;
+}
+
+ @media(min-width:800px) {
+    h2{font-size: 100px}
+    h3{font-size: 80px;}
+ }
+
+@media(min-width:500px) {
+    h2{font-size: 35px}
+    h3{font-size: 30px;}
+   
+ }
+ @media(min-width:200px) {
+    h2{font-size: 20px}
+    h3{font-size: 15px;}
+ } 
+
